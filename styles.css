@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  
+   
+}
+body{
+    background-image:url(background.png) ;
+}
+h3{
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+}
+form{
+    background-color: rgb(151, 145, 89);
+    padding: 10px;
+    margin-right: 450px;
+    margin-left: 450px;
+    border: 8px solid red;
+}
+.f{
+    
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 3px 3px;
+}
+textarea{
+    box-sizing: border-box;
+    
+    margin-left: 70px;
+    padding: 3px 3px;
+}
+.card{
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 3px 3px;
+}
+label{
+    font-weight: 100;
+    position: relative;
+    margin-right: 30px;
+}
+#button{
+    background-color: rgb(138, 97, 9);
+    padding: 7px;
+    margin-left: 150px; ;
+}

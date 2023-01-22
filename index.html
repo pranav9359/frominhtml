@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productdelivery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Order details</h1>
+    <form >
+        <h3>Step 1: Your details</h3>
+        <br>
+        <div class="f">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="First and Last Name">
+        </div>
+        <div class="f">
+            <label for="name">Email</label>
+            <input type="email" name="name" id="name" placeholder="example@gmail.com">
+        </div>
+        <div class="f">
+            <label for="name">Phone</label>
+            <input type="tel" name="name" id="name" placeholder="+910000000000">
+        </div>
+        <br>
+        <h3>Step 2: Delivery address</h3>
+        <br>
+        <div class="f">
+            <label for="text">Address</label>
+            <br>
+            <textarea name="add" id="add" cols="20" rows="5"placeholder="enter your address"></textarea>
+        </div>
+        <div class="f">
+            <label for="name">Post code</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div class="f">
+            <label for="name">Country</label>
+            <input type="text" name="name" id="name"placeholder="enter country name">
+        </div>
+        <br>
+        <h3>Card details</h3>
+        <br>
+        <div class="card">
+            <p>card type</p>
+            <br>
+            <input type="radio" name="ra" id="ra">
+            <label for="ra">visa</label>
+            <input type="radio" name="ra" id="ra">
+            <label for="ra">credit card</label>
+            <input type="radio" name="ra" id="ra">
+            <label for="ra">Mastercard</label>
+            
+        </div>
+        <div class="f">
+            <label for="name">Card number</label>
+            <input type="tel" name="name" id="name">
+        </div>
+        <div class="f">
+            <label for="name">Security code</label>
+            <input type="tel" name="name" id="name" >
+        </div>
+        <div class="f">
+            <label for="name">Name on card</label>
+            <input type="tel" name="name" id="name" placeholder="exact name on card">
+        </div>
+        <br>
+        
+        <input type="button" name="button" id="button" value="BUY IT!">
+    </form>
+    <img src="computer.png" alt="Workplace" usemap="#workmap" width="400" height="400">
+
+<map name="workmap">
+  <area shape="rect" coords="37,47,285,375" alt="Computer" href="https://google.com" target="_blank">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="313,327,50" alt="Cup of coffee" href="https://facebook.com" target="_blank">
+</map>
+</body>
+</html>
